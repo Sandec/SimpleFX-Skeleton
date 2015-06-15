@@ -2,9 +2,9 @@ scalaVersion := "2.11.6"
 
 organization := "SANDEC"
 
-resolvers += Resolver.url("SANDEC", url("http://sandec.de/repo/"))(Resolver.ivyStylePatterns)
+resolvers += Resolver.url("SANDEC", url("http://dl.bintray.com/sandec/repo"))(Resolver.ivyStylePatterns)
 
-libraryDependencies += "SANDEC" %% "simplefx" % "2.1.0"
+libraryDependencies += "SANDEC" %% "simplefx" % "2.1.1"
 
 scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature", "-language:_")
 
