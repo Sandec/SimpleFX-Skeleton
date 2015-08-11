@@ -1,10 +1,10 @@
-scalaVersion := "2.11.6"
+enablePlugins(SimpleFXPlugin)
+
+scalaVersion := "2.11.7"
 
 organization := "SANDEC"
 
 resolvers += Resolver.url("SANDEC", url("http://dl.bintray.com/sandec/repo"))(Resolver.ivyStylePatterns)
-
-libraryDependencies += "SANDEC" %% "simplefx" % "2.1.1"
 
 scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature", "-language:_")
 
